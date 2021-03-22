@@ -1,0 +1,476 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+  width: 1440px;
+  background-color: #282828;
+  margin: 0 auto;
+}
+header, section, footer{
+  overflow: auto;
+}
+h2{
+  font-family: 'titilliumWebBold';
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 110px auto 12px auto;
+}
+hr{
+  width: 85px;
+  border: 2px solid #000;
+  opacity: 0.15;
+  margin: 0px auto 20px auto;
+}
+hr+p{
+  font-family: 'titilliumWebRegular';
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.white-font{
+  color: #fff;
+}
+.grey-font{
+  color: #3c4761;
+}
+.black-font{
+  color: #393939;
+}
+.card-container{
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+}
+.card-container .card{
+  width: 25%;
+}
+header{
+  background-color: #87509c;
+}
+nav{
+  line-height: 152px;
+  margin: 0px 192px 0px 212px;;
+}
+nav ul, nav li{
+  display: inline-block;
+}
+nav ul{
+  float: right;
+}
+nav li a, nav li a:active{
+  color: #fff;
+}
+nav li a{
+  font-family: 'titilliumWebRegular';
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 4px 17px;
+}
+nav li a:hover{
+  background-color: #643a79;
+  border: none;
+  border-radius: 3px;
+}
+h3{
+  display: block;
+  font-family: 'titilliumWebBold';
+  font-size: 42px;
+  color: #fff;
+  text-align: center;
+  margin: 88px 0 64px 0;
+}
+.btn-large{
+  display: block;
+  width: 292px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'titilliumWebSemiBold';
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 66px;
+  border: none;
+  border-radius: 3px;
+}
+.btn-orange{
+  background-color: #eb7d4b;
+  border-bottom: 4px solid #c86a40;
+  margin: 0 auto 145px auto;
+}
+.btn-orange:hover{
+  background-color: #eb733d;
+  border-bottom: 4px solid #c86031;
+}
+.btn-orange:active{
+  background-color: #c86031;
+}
+.btn-green{
+  background-color: #17c2a4;
+  border-bottom: 4px solid #14a58c;
+  margin: 80px auto 110px auto;
+}
+.btn-green:hover{
+  background-color: #1ca28a;
+  border-bottom: 4px solid #128a75;
+}
+.btn-green:active{
+  background-color: #128a75;
+}
+.btn-blue{
+  border: none;
+  background-color: #30bae7;
+  border-bottom: 4px solid #299ec5;
+  margin: 80px auto 110px auto;
+}
+.btn-blue:hover{
+  background-color: #2797bc;
+  border-bottom: 4px solid #21809f;
+}
+.btn-blue:active{
+  background-color: #21809f;
+}
+#services{
+  background-color: #17c2a4;
+}
+#services .card img{
+  display: block;
+  margin: 0 auto 54px auto;
+}
+#services .card h1, #team .card h3, #skills .card h1{
+  font-family: 'titilliumWebBold';
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#services .card h1{
+  color: #fff;
+  margin-bottom: 18px;
+}
+#services .card p, #team .card p{
+  font-family: 'titilliumWebLight';
+  font-size: 16px;
+  text-align: center;
+  padding: 0 45px;
+}
+#services .card p{
+  color: #fff;
+  margin-bottom: 128px;
+}
+#team{
+  background-color: #e7f1f8;
+  color: #3c4761;
+}
+#team .card{
+  text-align: center;
+}
+#team .card img{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: #878787;
+  border-radius: 50%;
+}
+#team .card h3{
+  margin: 34px auto 0 auto;
+}
+#team .card h4{
+  font-family: 'titilliumWebRegular';
+  font-size: 16px;
+  font-weight: 100;
+  color: #30bae7;
+  margin-bottom: 20px;
+}
+#team .card p{
+  margin-bottom: 30px;
+}
+#team .card-social-icons{
+  display: inline-block;
+  margin-bottom: 125px;
+}
+#team .card a{
+  display: block;
+  float: left;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 4px;
+  background-color: #bdd1df;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.facebook-icon{
+  background-image: url(../img/facebook_icon.png);
+}
+.twitter-icon{
+  background-image: url(../img/twitter_icon.png);
+}
+.linkedIn-icon{
+  background-image: url(../img/linkedIn_icon.png);
+}
+.gMail-icon{
+  background-image: url(../img/gMail_icon.png);
+}
+#team .card a:hover{
+  background-color: #a4c7df;
+}
+#skills{
+  background-color: #fff;
+}
+#skills h1{
+  margin-bottom: 116px;
+}
+/* Example from https://www.cssscript.com/circular-progress-bar-plain-html-css/
+   (MIT License) slightly changed */
+
+   .progress-circle {
+    margin: 0px 62px 26px 62px;
+    font-size: 20px;
+    position: relative; /* so that children can be absolutely positioned */
+    padding: 0;
+    width: 160px;
+    height: 160px;
+    background-color: #dfe8ed; 
+    border-radius: 50%;
+    line-height: 160px;
+ }
+ .progress-circle:after{
+     border: none;
+     position: absolute;
+     top: 12px;
+     left: 12px;
+     text-align: center;
+     display: block;
+     border-radius: 50%;
+     width: 136px;
+     height: 136px;
+     background-color: white;
+     content: " ";
+ }
+ /* Text inside the control */
+ .progress-circle span {
+     position: absolute;
+     line-height: 160px;
+     width: 160px;
+     font-size: 50px;
+     font-family: 'titilliumWebLight';
+     text-align: center;
+     display: block;
+     color: #3c4761;
+     z-index: 2;
+ }
+ .progress-circle span sub{
+  vertical-align: middle;
+  font-size: 32px;
+  font-family: 'titilliumWebLight';
+ }
+ .value-bar {
+    /*This is an overlayed square, that is made round with the border radius,
+    then it is cut to display only the left half, then rotated clockwise
+    to escape the outer clipping path.*/ 
+    position: absolute; /*needed for clipping*/
+    clip: rect(0, 80px, 160px, 0);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 18px solid;
+    box-sizing: border-box;
+ }
+ .first50-bar {
+    /*Progress bar for the first 50%, filling the whole right half*/
+    position: absolute; /*needed for clipping*/
+    clip: rect(0, 160px, 160px, 80px);
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+ }
+ .blue{
+   background-color: #30bae7;
+   border-color: #30bae7;
+ }
+ .red{
+  background-color: #d74680;
+  border-color: #d74680;
+}
+.green{
+  background-color: #15c7a8;
+  border-color: #15c7a8;
+}
+.orange{
+  background-color: #eb7d4b;
+  border-color: #eb7d4b;
+}
+ /* Progress bar rotation position */
+ 
+ .progress-circle.p70 .value-bar { transform: rotate(252deg); }
+ .progress-circle.p75 .value-bar { transform: rotate(270deg); }
+ .progress-circle.p85 .value-bar { transform: rotate(306deg); }
+ .progress-circle.p90 .value-bar { transform: rotate(324deg); }
+
+ /* End .progress-circle */
+
+ #portfolio{
+   background-color: #ffdd99;
+   padding: 0px 140px 145px 140px;
+ }
+ #portfolio p{
+   margin-bottom: 48px;
+ }
+.tab{
+  overflow: hidden;
+  width: 370px;
+  margin: 0px auto;
+}
+.tab button{
+  width: 82px;
+  height: 38px;
+  line-height: 100%;
+  background-color: #ebc985;
+  float: left;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin: 0px 5px;
+  transition: 0.3s;
+}
+.tab button:hover {
+  background-color: #fff;
+}
+.tab button.active {
+  background-color: #fff;
+}
+.tabcontent a, .tab button{
+  font-family: 'titilliumWebRegular';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.tabcontent{
+  display: none;
+  background: url(../img/mac_bg.png) no-repeat center;
+  padding: 6px 12px;
+  border-top: none;
+  width: 47%;
+}
+.tabcontent img{
+  margin: 63px 0px 0px 67px;
+}
+.tabcontent a{
+  display: block;
+  text-decoration: none;
+  color: #393939;
+  text-align: center;
+  margin-top: 53px;
+}
+.tabcontent.active{
+  display: inline-block;
+}
+.btn-load-more{
+  margin-bottom: 0px;
+  display: none;
+}
+.btn-load-more.active{
+  display: block;
+}
+#testimonials{
+  background-color: #d74680;
+}
+.quotes-section{
+  padding: 0px 150px;
+}
+.quote{
+  width: 49%;
+  display: inline-block;
+}
+.quoter-photo{
+  width: 96px;
+  height: 96px;
+  border: none;
+  border-radius: 50%;
+  background-color: #787878;
+  float: left;
+  margin: 0px 50px 0px 20px;
+}
+.quote-text{
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 140px;
+}
+q{
+  font-family: 'titilliumWebItalic';
+  color: #fff;
+  font-size: 21px;
+}
+.quoter-name{
+  font-family: 'titilliumWebBold';
+  color: #fff;
+  font-size: 24px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding-top: 24px;
+}
+.quoter-position{
+  font-family: 'titilliumWebRegular';
+  color: #ffdd99;
+  font-size: 18px;
+  letter-spacing: 0.25px;
+}
+#contacts{
+  background-color: #3c5499; 
+}
+form{
+  width: 900px;
+  margin: auto;
+}
+input[type=text]{
+  width: 362px;
+  height: 56px;
+  margin: 0px 15px 27px 15px;
+  padding: 0px 26px;
+}
+textarea{
+  width: 830px;
+  margin-left: 16px;
+  padding: 18px 16px;
+}
+input[type=text], textarea{
+  font-family: 'titilliumWebRegular';
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  background-color: #273a71;
+}
+input[type=text]::placeholder, textarea::placeholder{
+  color: #fff;
+  opacity: 1;
+}
+footer{
+  background-color: #344b8e;
+}
+.footer-links{
+  text-align: center; 
+}
+footer a{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'titilliumWebSemiBold';
+  font-size: 24px;
+  line-height: 112px;
+  padding: 0px 27px;
+  margin: 0;
+}
+footer a:hover{
+  color: #30bae7;
+}
