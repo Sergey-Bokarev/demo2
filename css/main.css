@@ -392,6 +392,7 @@ h3{
 .quote{
   width: 49%;
   display: inline-block;
+  vertical-align: top;
 }
 .quoter-photo{
   width: 96px;
